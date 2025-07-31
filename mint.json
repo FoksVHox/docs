@@ -32,7 +32,7 @@
     },
     {
       "name": "SwiftFleet",
-      "url": "swiftfleet"
+      "url": "swiftfleet/introduction"
     }
   ],
   "anchors": [
@@ -57,6 +57,14 @@
       "group": "Get Started",
       "pages": [
         "introduction",
+        "quickstart",
+        "development"
+      ]
+    },
+    {
+      "group": "SwiftFleet",
+      "pages": [
+        "swiftfleet/introduction",
         "quickstart",
         "development"
       ]
