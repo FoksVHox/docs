@@ -29,5 +29,27 @@ For hver kunde skal du angive følgende oplysninger:
 
 Kunderne bruges som modtagere, når du opretter leveringer, og gør det muligt at genbruge oplysninger på tværs af ruter.
 ## Planlæg leverancer
+Når dine kunder er oprettet, kan du begynde at oprette leveringer til dem. En levering knytter sig til én kunde og angiver, hvad der skal leveres og hvornår.
 
-## Optimer ruterne
+For hver levering skal du angive følgende:
+
+- **Kunde** (vælges fra listen over eksisterende kunder)
+- **Eksternt ID** (valgfrit, bruges til integration eller reference)
+- **Dato** for levering
+- **Tidsinterval**, hvis leveringen skal ske inden for et bestemt tidsrum
+- **Leveringsnotat** (valgfrit)
+
+<Info>
+    Hvis du tilføjer et leveringsnotat direkte på leveringen, vil det overskrive det standard notat, der er angivet på kunden – men kun for den pågældende levering.
+</Info>
+
+Når leveringen er oprettet, kan den bruges i ruteplanlægningen. Du kan oprette flere leveringer ad gangen eller opdatere dem løbende efter behov.
+
+## Planlæg og optimer ruter
+Når dine leveringer og køretøjer er oprettet, kan du begynde at planlægge ruter. Det gøres ved at vælge en dato, tilknytte de relevante leveringer og angive, hvilke køretøjer der skal benyttes.
+
+SwiftFleet beregner herefter den mest hensigtsmæssige rute baseret på leveringsadresser, tidsvinduer, køretøjernes kapacitet og andre relevante forhold.
+
+Du starter ved at gå til **Ruter > Planlægning**, vælger den ønskede dato og tilføjer de leveringer, der skal køres. Dernæst vælger du et eller flere tilgængelige køretøjer og klikker på **"Optimer rute"**. Systemet genererer automatisk en rute, som du efterfølgende kan justere manuelt, hvis der er behov.
+
+Når ruten er godkendt, kan den enten sendes videre til chaufføren eller følges i realtid via overvågningsmodulet.
