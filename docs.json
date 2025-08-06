@@ -3,18 +3,23 @@
   "theme": "maple",
   "name": "SwiftFleet",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
+    "primary": "#0e74bc",
+    "light": "#0e74bc",
     "dark": "#15803D"
   },
   "icons": {
     "library": "lucide"
   },
-  "favicon": "logo/favicon.png",
+  "styling": {
+    "eyebrows": "breadcrumbs"
+  },
+  "favicon": "logo/favicon-16x16.png",
   "navigation": {
-    "versions": [
+    "dropdowns": [
       {
-        "version": "SwiftFleet",
+        "dropdown": "SwiftFleet",
+        "icon": "book-open",
+        "description": "Leverings- & flådestyring",
         "tabs": [
           {
             "tab": "Dokumentation",
@@ -29,76 +34,78 @@
               {
                 "group": "Kunder",
                 "pages": [
-                  "swiftfleet/customers/index",
-                  "essentials/navigation"
+                  "swiftfleet/customers/index"
                 ]
               },
               {
                 "group": "Ruter",
-                "pages": [
-                  "essentials/markdown",
-                  "essentials/code",
-                  "essentials/images",
-                  "essentials/reusable-snippets"
-                ]
+                "pages": []
               },
               {
-                "group": "Ordrer",
-                "pages": [
-                  "ai-tools/cursor",
-                  "ai-tools/claude-code",
-                  "ai-tools/windsurf"
-                ]
+                "group": "Leveringer",
+                "pages": []
               },
               {
                 "group": "Køretøjer",
-                "pages": [
-                  "ai-tools/cursor",
-                  "ai-tools/claude-code",
-                  "ai-tools/windsurf"
-                ]
+                "pages": []
               },
               {
                 "group": "Brugere",
-                "pages": [
-                  "ai-tools/cursor",
-                  "ai-tools/claude-code",
-                  "ai-tools/windsurf"
-                ]
+                "pages": []
               },
               {
                 "group": "Integrationer",
+                "pages": []
+              },
+              {
+                "group": "Ressourcer",
                 "pages": [
-                  "ai-tools/cursor",
-                  "ai-tools/claude-code",
-                  "ai-tools/windsurf"
+                  "changelog"
                 ]
               }
-            ]
-          },
-          {
-            "tab": "Ændringslog",
-            "icon": "code",
-            "pages": [
-              "changelog"
             ]
           },
           {
             "tab": "API Dokumentation",
-            "groups": [
+            "versions": [
               {
-                "group": "API documentation",
-                "pages": [
-                  "api-reference/introduction"
+                "version": "v2.0.0",
+                "groups": [
+                  {
+                    "group": "API documentation",
+                    "pages": [
+                      "api-reference/introduction"
+                    ]
+                  },
+                  {
+                    "group": "Endpoint examples",
+                    "pages": [
+                      "api-reference/endpoint/get",
+                      "api-reference/endpoint/create",
+                      "api-reference/endpoint/delete",
+                      "api-reference/endpoint/webhook"
+                    ]
+                  }
                 ]
               },
               {
-                "group": "Endpoint examples",
-                "pages": [
-                  "api-reference/endpoint/get",
-                  "api-reference/endpoint/create",
-                  "api-reference/endpoint/delete",
-                  "api-reference/endpoint/webhook"
+                "version": "v2.5.0",
+                "groups": [
+                  {
+                    "group": "API documentation",
+                    "pages": [
+                      "api-reference/introduction"
+                    ]
+                  },
+                  {
+                    "group": "Endpoint examples",
+                    "pages": [
+                      "api-reference/endpoint/get",
+                      "api-reference/endpoint/create",
+                      "api-reference/endpoint/delete",
+                      "api-reference/endpoint/webhook"
+                    ]
+                  }
                 ]
               }
             ]
@@ -106,20 +113,47 @@
         ]
       },
       {
-        "version": "Schedula",
-        "groups": [
+        "dropdown": "StreamNow",
+        "description": "Video streaming platform",
+        "icon": "book-open",
+        "tabs": [
           {
-            "group": "Getting Started",
-            "pages": ["v2/overview", "v2/quickstart", "v2/development"]
-          }
-        ]
-      },
-      {
-        "version": "StreamNow",
-        "groups": [
-          {
-            "group": "Getting Started",
-            "pages": ["v2/overview", "v2/quickstart", "v2/development"]
+            "tab": "Dokumentation",
+            "groups": [
+              {
+                "group": "Kom godt i gang",
+                "pages": [
+                  "streamnow/index",
+                  "swiftfleet/quickstart"
+                ]
+              },
+              {
+                "group": "Kunder",
+                "pages": [
+                  "swiftfleet/customers/index"
+                ]
+              },
+              {
+                "group": "Ruter",
+                "pages": []
+              },
+              {
+                "group": "Leveringer",
+                "pages": []
+              },
+              {
+                "group": "Køretøjer",
+                "pages": []
+              },
+              {
+                "group": "Brugere",
+                "pages": []
+              },
+              {
+                "group": "Integrationer",
+                "pages": []
+              }
+            ]
           }
         ]
       }
@@ -128,19 +162,6 @@
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
   },
   "footer": {
     "socials": {
