@@ -7,94 +7,119 @@
     "light": "#07C983",
     "dark": "#15803D"
   },
+  "icons": {
+    "library": "lucide"
+  },
   "favicon": "logo/favicon.png",
   "navigation": {
-    "tabs": [
+    "versions": [
       {
-        "tab": "Dokumentation",
-        "groups": [
+        "version": "SwiftFleet",
+        "tabs": [
           {
-            "group": "Kom godt i gang",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
+            "tab": "Dokumentation",
+            "groups": [
+              {
+                "group": "Kom godt i gang",
+                "pages": [
+                  "swiftfleet/index",
+                  "swiftfleet/quickstart"
+                ]
+              },
+              {
+                "group": "Kunder",
+                "pages": [
+                  "swiftfleet/customers/index",
+                  "essentials/navigation"
+                ]
+              },
+              {
+                "group": "Ruter",
+                "pages": [
+                  "essentials/markdown",
+                  "essentials/code",
+                  "essentials/images",
+                  "essentials/reusable-snippets"
+                ]
+              },
+              {
+                "group": "Ordrer",
+                "pages": [
+                  "ai-tools/cursor",
+                  "ai-tools/claude-code",
+                  "ai-tools/windsurf"
+                ]
+              },
+              {
+                "group": "Køretøjer",
+                "pages": [
+                  "ai-tools/cursor",
+                  "ai-tools/claude-code",
+                  "ai-tools/windsurf"
+                ]
+              },
+              {
+                "group": "Brugere",
+                "pages": [
+                  "ai-tools/cursor",
+                  "ai-tools/claude-code",
+                  "ai-tools/windsurf"
+                ]
+              },
+              {
+                "group": "Integrationer",
+                "pages": [
+                  "ai-tools/cursor",
+                  "ai-tools/claude-code",
+                  "ai-tools/windsurf"
+                ]
+              }
             ]
           },
           {
-            "group": "Kunder",
+            "tab": "Ændringslog",
+            "icon": "code",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "changelog"
             ]
           },
           {
-            "group": "Ruter",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "Ordrer",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          },
-          {
-            "group": "Køretøjer",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          },
-          {
-            "group": "Brugere",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          },
-          {
-            "group": "Integrationer",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+            "tab": "API Dokumentation",
+            "groups": [
+              {
+                "group": "API documentation",
+                "pages": [
+                  "api-reference/introduction"
+                ]
+              },
+              {
+                "group": "Endpoint examples",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete",
+                  "api-reference/endpoint/webhook"
+                ]
+              }
             ]
           }
         ]
       },
       {
-        "tab": "Ændringslog",
-        "icon": "code",
-        "pages": [
-          "changelog"
+        "version": "Schedula",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": ["v2/overview", "v2/quickstart", "v2/development"]
+          }
         ]
       },
       {
-        "tab": "API Dokumentation",
+        "version": "StreamNow",
         "groups": [
           {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
+            "group": "Getting Started",
+            "pages": ["v2/overview", "v2/quickstart", "v2/development"]
           }
         ]
       }
