@@ -1,0 +1,56 @@
+---
+title: Oprettelse af kunder
+description: Hvordan kunder oprettes i SwiftFleet og hvordan deres data anvendes i planlægning.
+---
+
+## Opret en kunde
+
+Kunder er en grundlæggende del af SwiftFleets planlægningsmodel. Hver kunde repræsenterer en destination for en eller flere leveringer og indeholder de oplysninger, der bruges til at placere leveringen korrekt på ruten og kommunikere med modtageren.
+
+Når en kunde er oprettet, kan den bruges igen og igen – uden at du behøver at indtaste adresse og kontaktoplysninger hver gang.
+
+---
+
+### Felter i en kunde
+
+Ved oprettelse af en kunde bliver du bedt om at udfylde følgende oplysninger:
+
+## Felter i en kunde
+
+| Felt                    | Beskrivelse                                                    | Påkrævet |
+|-------------------------|----------------------------------------------------------------|----------|
+| **Navn**                | Kundens navn                                                   | Ja       |
+| **Adresse**             | Gade og husnummer                                              | Ja       |
+| **Postnummer**          | Postnummer for adressen                                        | Ja       |
+| **By**                  | By-navn                                                        | Ja       |
+| **Land**                | Landekode eller landnavn                                       | Ja       |
+| **Telefonnummer**       | Bruges til kontakt, f.eks. ved levering                        | Nej      |
+| **E-mailadresse**       | Kan anvendes til beskeder eller notifikationer                 | Nej      |
+| **Standard leveringsnotat** | Forududfyldes automatisk ved oprettelse af leveringer       | Nej      |
+| **Eksternt ID**         | Bruges til reference i eksterne systemer                       | Nej      |
+
+<Info>
+Hvis du tilføjer et leveringsnotat direkte på en levering, vil det overskrive det standardnotat, der er angivet på kunden – men kun for den pågældende levering.
+</Info>
+
+---
+
+## Geokodning af adressen
+
+Når en kunde oprettes, forsøger SwiftFleet automatisk at finde koordinater for adressen ved hjælp af vores interne Geolookup-tjeneste. Disse koordinater bruges til at placere kunden korrekt på kortet og er nødvendige for at ruteplanlægningen kan fungere.
+
+<Info>
+Geokodning sker automatisk i baggrunden, og du behøver som udgangspunkt ikke at foretage dig noget manuelt.
+</Info>
+
+Hvis adressen ikke kan konverteres til koordinater, vil systemet vise en advarsel direkte på kunden. Kunden kan i så fald ikke bruges i ruteplanlægning, før problemet er løst.
+
+<Warning>
+En kunde uden gyldige koordinater kan ikke tilknyttes en rute. Kontrollér, at adressen er korrekt og komplet.
+</Warning>
+
+Når du retter og gemmer adressen, forsøger systemet automatisk at finde koordinaterne igen.
+
+---
+
+Efter oprettelsen vil kunden være tilgængelig i hele systemet og kan vælges, når du opretter nye leveringer.

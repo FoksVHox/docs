@@ -31,7 +31,8 @@
               {
                 "group": "Kunder",
                 "pages": [
-                  "swiftfleet/customers/index"
+                  "swiftfleet/customers/index",
+                  "swiftfleet/customers/create"
                 ]
               },
               {
