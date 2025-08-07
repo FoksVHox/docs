@@ -15,8 +15,6 @@ Når en kunde er oprettet, kan den bruges igen og igen – uden at du behøver a
 
 Ved oprettelse af en kunde bliver du bedt om at udfylde følgende oplysninger:
 
-## Felter i en kunde
-
 | Felt                    | Beskrivelse                                                    | Påkrævet |
 |-------------------------|----------------------------------------------------------------|----------|
 | **Navn**                | Kundens navn                                                   | Ja       |
@@ -51,6 +49,22 @@ En kunde uden gyldige koordinater kan ikke tilknyttes en rute. Kontrollér, at a
 
 Når du retter og gemmer adressen, forsøger systemet automatisk at finde koordinaterne igen.
 
----
+## Import af kunder
 
-Efter oprettelsen vil kunden være tilgængelig i hele systemet og kan vælges, når du opretter nye leveringer.
+Hvis du har mange kunder, kan det være lettere at importere dem samlet i stedet for at oprette dem enkeltvis.
+
+SwiftFleet understøtter import af kunder via enten en **CSV** eller **XLSX**-fil. Filen skal indeholde en kolonne for hver af de felter, der skal importeres.
+
+<Info>
+Følgende kolonneoverskrifter skal anvendes i filen:
+
+`name`, `city`, `zip`, `country`
+</Info>
+
+Felterne svarer til dem, du normalt udfylder ved manuel oprettelse. Både `external_id` og `default_delivery_note` er valgfrie og kan udelades, hvis de ikke anvendes.
+
+Når filen er klar, kan du uploade den via **Kunder > Importer kunder** i menuen. Systemet validerer automatisk dataene og viser eventuelle fejl, før importen gennemføres.
+
+<Warning>
+Kunder med ugyldige eller ufuldstændige adresser vil ikke blive importeret. Kontrollér derfor, at alle obligatoriske felter er udfyldt korrekt.
+</Warning>

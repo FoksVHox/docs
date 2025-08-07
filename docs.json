@@ -32,7 +32,8 @@
                 "group": "Kunder",
                 "pages": [
                   "swiftfleet/customers/index",
-                  "swiftfleet/customers/create"
+                  "swiftfleet/customers/create",
+                  "swiftfleet/customers/edit"
                 ]
               },
               {
@@ -67,27 +68,7 @@
             "tab": "API Dokumentation",
             "versions": [
               {
-                "version": "v2.0.0",
-                "groups": [
-                  {
-                    "group": "API documentation",
-                    "pages": [
-                      "api-reference/introduction"
-                    ]
-                  },
-                  {
-                    "group": "Endpoint examples",
-                    "pages": [
-                      "api-reference/endpoint/get",
-                      "api-reference/endpoint/create",
-                      "api-reference/endpoint/delete",
-                      "api-reference/endpoint/webhook"
-                    ]
-                  }
-                ]
-              },
-              {
-                "version": "v2.5.0",
+                "version": "v1.0.0",
                 "groups": [
                   {
                     "group": "API documentation",
