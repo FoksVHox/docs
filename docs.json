@@ -102,35 +102,34 @@
               {
                 "group": "Kom godt i gang",
                 "pages": [
-                  "streamnow/index",
-                  "swiftfleet/quickstart"
+                  "streamnow/index"
                 ]
-              },
-              {
-                "group": "Kunder",
-                "pages": [
-                  "swiftfleet/customers/index"
-                ]
-              },
-              {
-                "group": "Ruter",
-                "pages": []
-              },
-              {
-                "group": "Leveringer",
-                "pages": []
-              },
-              {
-                "group": "Køretøjer",
-                "pages": []
               },
               {
                 "group": "Brugere",
-                "pages": []
+                "pages": [
+                  "streamnow/users/index",
+                  "streamnow/users/create",
+                  "streamnow/users/reset-password",
+                  "streamnow/users/access-management",
+                  "streamnow/users/delete",
+                  "streamnow/users/passwords"
+                ]
               },
               {
-                "group": "Integrationer",
-                "pages": []
+                "group": "Videoer",
+                "pages": [
+                  "streamnow/videos/overview",
+                  "streamnow/videos/uploading",
+                  "streamnow/videos/edit",
+                  "streamnow/videos/access-and-sharing"
+                ]
+              },
+              {
+                "group": "Roller & rettigheder",
+                "pages": [
+                  "streamnow/roles/index"
+                ]
               }
             ]
           }
