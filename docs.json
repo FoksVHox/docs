@@ -33,7 +33,8 @@
                 "pages": [
                   "swiftfleet/customers/index",
                   "swiftfleet/customers/create",
-                  "swiftfleet/customers/edit"
+                  "swiftfleet/customers/edit",
+                  "swiftfleet/customers/delete"
                 ]
               },
               {
