@@ -103,7 +103,8 @@
                       "api-reference/endpoint/get",
                       "api-reference/endpoint/create",
                       "api-reference/endpoint/delete",
-                      "api-reference/endpoint/webhook"
+                      "api-reference/endpoint/webhook",
+                      "api-reference/endpoint/train"
                     ]
                   }
                 ]
@@ -112,7 +113,26 @@
           },
           {
             "tab": "API Dokumentation2",
-            "openapi": "https://petstore3.swagger.io/api/v3/openapi.json"
+            "versions": [
+              {
+                "version": "v1.0.0",
+                "openapi": "https://petstore3.swagger.io/api/v3/openapi.json",
+                "groups": [
+                  {
+                    "group": "API documentation",
+                    "pages": [
+                      "api-reference/introduction"
+                    ]
+                  },
+                  {
+                    "group": "Endpoint examples",
+                    "pages": [
+                      "api-reference/endpoint/train"
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
