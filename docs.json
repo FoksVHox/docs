@@ -39,19 +39,39 @@
               },
               {
                 "group": "Ruter",
-                "pages": []
+                "pages": [
+                  "swiftfleet/routes/index",
+                  "swiftfleet/routes/create",
+                  "swiftfleet/routes/edit",
+                  "swiftfleet/routes/delete"
+                ]
               },
               {
                 "group": "Leveringer",
-                "pages": []
+                "pages": [
+                  "swiftfleet/deliveries/index",
+                  "swiftfleet/deliveries/create",
+                  "swiftfleet/deliveries/edit",
+                  "swiftfleet/deliveries/delete"
+                ]
               },
               {
                 "group": "Køretøjer",
-                "pages": []
+                "pages": [
+                  "swiftfleet/vehicles/index",
+                  "swiftfleet/vehicles/create",
+                  "swiftfleet/vehicles/edit",
+                  "swiftfleet/vehicles/delete"
+                ]
               },
               {
                 "group": "Brugere",
-                "pages": []
+                "pages": [
+                  "swiftfleet/users/index",
+                  "swiftfleet/users/create",
+                  "swiftfleet/users/edit",
+                  "swiftfleet/users/delete"
+                ]
               },
               {
                 "group": "Integrationer",
@@ -89,6 +109,10 @@
                 ]
               }
             ]
+          },
+          {
+            "tab": "API Dokumentation2",
+            "openapi": "https://petstore3.swagger.io/api/v3/openapi.json"
           }
         ]
       },
