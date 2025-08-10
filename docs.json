@@ -117,19 +117,8 @@
               {
                 "version": "v1.0.0",
                 "openapi": "https://petstore3.swagger.io/api/v3/openapi.json",
-                "groups": [
-                  {
-                    "group": "API documentation",
-                    "pages": [
-                      "api-reference/introduction"
-                    ]
-                  },
-                  {
-                    "group": "Endpoint examples",
-                    "pages": [
-                      "api-reference/endpoint/train"
-                    ]
-                  }
+                "pages": [
+                  "api-reference/endpoint/train"
                 ]
               }
             ]
