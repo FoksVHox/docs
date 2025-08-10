@@ -118,7 +118,7 @@
                 "version": "v1.0.0",
                 "openapi": "https://petstore3.swagger.io/api/v3/openapi.json",
                 "pages": [
-                  "api-reference/endpoint/train"
+                  "swiftfleet/api-reference/endpoint/train"
                 ]
               }
             ]
