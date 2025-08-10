@@ -10,13 +10,6 @@
   "icons": {
     "library": "lucide"
   },
-  "api": {
-    "playground": { "display": "interactive" },
-    "examples": {
-      "languages": ["curl", "php", "laravel", "javascript"],
-      "defaults": "required"
-    }
-  },
   "favicon": "logo/favicon-16x16.png",
   "navigation": {
     "dropdowns": [
@@ -123,10 +116,7 @@
             "versions": [
               {
                 "version": "v1.0.0",
-                "openapi": "https://petstore3.swagger.io/api/v3/openapi.json",
-                "pages": [
-                  "swiftfleet/api-reference/endpoint/train"
-                ]
+                "openapi": "https://petstore3.swagger.io/api/v3/openapi.json"
               }
             ]
           }
