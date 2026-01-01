@@ -165,6 +165,24 @@
             ]
           }
         ]
+      },
+      {
+        "dropdown": "TaskManager",
+        "description": "All-in-one task management løsning",
+        "icon": "book-open",
+        "tabs": [
+          {
+            "tab": "Dokumentation",
+            "groups": [
+              {
+                "group": "Kom godt i gang",
+                "pages": [
+                  "taskmanager/index"
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   },
