@@ -21,7 +21,7 @@
         "dropdowns": [
           {
             "dropdown": "Schedula",
-            "icon": "book-open",
+            "icon": "graduation-cap",
             "description": "Fremtidens studiesystem",
             "tabs": [
               {
@@ -39,7 +39,7 @@
           },
           {
             "dropdown": "SwiftFleet",
-            "icon": "book-open",
+            "icon": "truck",
             "description": "Leverings- & flådestyring",
             "tabs": [
               {
@@ -137,7 +137,7 @@
           {
             "dropdown": "StreamNow",
             "description": "Video streaming platform",
-            "icon": "book-open",
+            "icon": "tv-minimal-play",
             "tabs": [
               {
                 "tab": "Dokumentation",
@@ -181,7 +181,7 @@
           {
             "dropdown": "TaskManager",
             "description": "All-in-one task management løsning",
-            "icon": "book-open",
+            "icon": "list-todo",
             "tabs": [
               {
                 "tab": "Dokumentation",
