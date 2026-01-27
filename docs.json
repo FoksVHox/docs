@@ -97,22 +97,7 @@
                   {
                     "group": "API documentation",
                     "pages": [
-                      "api-reference/kitty"
-                    ]
-                  },
-                  {
-                    "group": "Endpoints",
-                    "openapi": "https://petstore3.swagger.io/api/v3/openapi.json"
-                  }
-                ]
-              },
-              {
-                "version": "v3.0.0",
-                "groups": [
-                  {
-                    "group": "API documentation",
-                    "pages": [
-                      "api-reference/kitty"
+                      "swiftfleet/api-reference/introduction"
                     ]
                   },
                   {
