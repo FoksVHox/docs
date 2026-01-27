@@ -119,6 +119,12 @@
                 "groups": [
                   {
                     "group": "API documentation",
+                    "pages": [
+                      "api-reference/introduction"
+                    ]
+                  },
+                  {
+                    "group": "Endpoints",
                     "openapi": "https://petstore3.swagger.io/api/v3/openapi.json"
                   }
                 ]
