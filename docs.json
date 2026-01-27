@@ -11,6 +11,9 @@
     "library": "lucide"
   },
   "favicon": "logo/favicon-16x16.png",
+  "fonts": {
+    "family": "IBM Plex Sans"
+  },
   "navigation": {
     "dropdowns": [
       {
@@ -80,39 +83,13 @@
               {
                 "group": "Ressourcer",
                 "pages": [
-                  "changelog"
+                  "swiftfleet/changelog"
                 ]
               }
             ]
           },
           {
             "tab": "API Dokumentation",
-            "versions": [
-              {
-                "version": "v1.0.0",
-                "groups": [
-                  {
-                    "group": "API documentation",
-                    "pages": [
-                      "api-reference/introduction"
-                    ]
-                  },
-                  {
-                    "group": "Endpoint examples",
-                    "pages": [
-                      "api-reference/endpoint/get",
-                      "api-reference/endpoint/create",
-                      "api-reference/endpoint/delete",
-                      "api-reference/endpoint/webhook",
-                      "api-reference/endpoint/train"
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "tab": "API Dokumentation2",
             "versions": [
               {
                 "version": "v1.0.0",
