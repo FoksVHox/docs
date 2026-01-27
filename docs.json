@@ -18,11 +18,25 @@
     "languages": [
       {
         "language": "no",
-        "banner": {
-          "content": "🚀 Version 2.0 is now live! See our [changelog](/en/changelog) for details.",
-          "dismissible": true
-        },
         "dropdowns": [
+          {
+            "dropdown": "Schedula",
+            "icon": "book-open",
+            "description": "Fremtidens studiesystem",
+            "tabs": [
+              {
+                "tab": "Dokumentation",
+                "groups": [
+                  {
+                    "group": "Kom godt i gang",
+                    "pages": [
+                      "schedula/index"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
           {
             "dropdown": "SwiftFleet",
             "icon": "book-open",
@@ -187,6 +201,24 @@
       {
         "language": "en",
         "dropdowns": [
+          {
+            "dropdown": "Schedula",
+            "icon": "book-open",
+            "description": "Fremtidens studiesystem",
+            "tabs": [
+              {
+                "tab": "Dokumentation",
+                "groups": [
+                  {
+                    "group": "Kom godt i gang",
+                    "pages": [
+                      "schedula/index"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
           {
             "dropdown": "SwiftFleet",
             "icon": "book-open",
