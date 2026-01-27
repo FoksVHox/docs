@@ -20,9 +20,27 @@
         "language": "en",
         "dropdowns": [
           {
+            "dropdown": "OnCloud API",
+            "icon": "waypoints",
+            "description": "OnCloud API Platform",
+            "tabs": [
+              {
+                "tab": "Dokumentation",
+                "groups": [
+                  {
+                    "group": "Kom godt i gang",
+                    "pages": [
+                      "oncloud-api/index"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "dropdown": "Schedula",
             "icon": "graduation-cap",
-            "description": "Fremtidens studiesystem",
+            "description": "Fremtidens studieadministrative løsning",
             "tabs": [
               {
                 "tab": "Dokumentation",
