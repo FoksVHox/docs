@@ -116,7 +116,17 @@
             "versions": [
               {
                 "version": "v1.0.0",
-                "openapi": "https://petstore3.swagger.io/api/v3/openapi.json"
+                "groups": [
+                  {
+                    "group": "API documentation",
+                    "pages": [
+                      "api-reference/introduction"
+                    ]
+                  },
+                  {
+                    "openapi": "https://petstore3.swagger.io/api/v3/openapi.json"
+                  }
+                ]
               }
             ]
           }
