@@ -119,10 +119,11 @@
                 "groups": [
                   {
                     "group": "API documentation",
+                    "openapi": "https://petstore3.swagger.io/api/v3/openapi.json",
                     "pages": [
-                      "api-reference/introduction"
-                    ],
-                    "openapi": "https://petstore3.swagger.io/api/v3/openapi.json"
+                      "api-reference/introduction",
+                      "GET /users"
+                    ]
                   }
                 ]
               }
