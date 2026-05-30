@@ -203,11 +203,8 @@
             "tabs": [
               {
                 "tab": "Dokumentation",
-                "groups": [
-                  {
-                    "group": "Kom godt i gang",
-                    "pages": []
-                  }
+                "pages": [
+                  "introduktion"
                 ]
               }
             ]
