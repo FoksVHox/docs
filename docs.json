@@ -17,7 +17,7 @@
   "navigation": {
     "languages": [
       {
-        "language": "en",
+        "language": "da",
         "dropdowns": [
           {
             "dropdown": "OnCloud API",
@@ -206,9 +206,7 @@
                 "groups": [
                   {
                     "group": "Kom godt i gang",
-                    "pages": [
-                      "taskmanager/index"
-                    ]
+                    "pages": []
                   }
                 ]
               }
