@@ -30,6 +30,162 @@
                   {
                     "group": "Kom godt i gang",
                     "pages": [
+                      "da/oncloud-api/index"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dropdown": "Schedula",
+            "icon": "graduation-cap",
+            "description": "Fremtidens studieadministrative løsning",
+            "tabs": [
+              {
+                "tab": "Dokumentation",
+                "groups": [
+                  {
+                    "group": "Kom godt i gang",
+                    "pages": [
+                      "da/schedula/index"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dropdown": "SwiftFleet",
+            "icon": "truck",
+            "description": "Leverings- & flådestyring",
+            "tabs": [
+              {
+                "tab": "Dokumentation",
+                "groups": [
+                  {
+                    "group": "Kom godt i gang",
+                    "pages": [
+                      "da/swiftfleet/index",
+                      "da/swiftfleet/quickstart"
+                    ]
+                  },
+                  {
+                    "group": "Kunder",
+                    "pages": [
+                      "da/swiftfleet/customers/index",
+                      "da/swiftfleet/customers/create",
+                      "da/swiftfleet/customers/edit",
+                      "da/swiftfleet/customers/delete"
+                    ]
+                  },
+                  {
+                    "group": "Ruter",
+                    "pages": [
+                      "da/swiftfleet/routes/index",
+                      "da/swiftfleet/routes/create",
+                      "da/swiftfleet/routes/edit",
+                      "da/swiftfleet/routes/delete"
+                    ]
+                  },
+                  {
+                    "group": "Leveringer",
+                    "pages": [
+                      "da/swiftfleet/deliveries/index",
+                      "da/swiftfleet/deliveries/create",
+                      "da/swiftfleet/deliveries/edit",
+                      "da/swiftfleet/deliveries/delete"
+                    ]
+                  },
+                  {
+                    "group": "Køretøjer",
+                    "pages": [
+                      "da/swiftfleet/vehicles/index",
+                      "da/swiftfleet/vehicles/create",
+                      "da/swiftfleet/vehicles/edit",
+                      "da/swiftfleet/vehicles/delete"
+                    ]
+                  },
+                  {
+                    "group": "Brugere",
+                    "pages": [
+                      "da/swiftfleet/users/index",
+                      "da/swiftfleet/users/create",
+                      "da/swiftfleet/users/edit",
+                      "da/swiftfleet/users/delete"
+                    ]
+                  },
+                  {
+                    "group": "Integrationer",
+                    "pages": []
+                  },
+                  {
+                    "group": "Ressourcer",
+                    "pages": [
+                      "da/swiftfleet/changelog"
+                    ]
+                  }
+                ]
+              },
+              {
+                "tab": "Vidensbase"
+              },
+              {
+                "tab": "API Dokumentation",
+                "versions": [
+                  {
+                    "version": "v1.0.0",
+                    "groups": [
+                      {
+                        "group": "API documentation",
+                        "pages": [
+                          "swiftfleet/api-reference/introduction"
+                        ]
+                      },
+                      {
+                        "group": "Endpoints",
+                        "openapi": "https://petstore3.swagger.io/api/v3/openapi.json"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dropdown": "TaskManager",
+            "description": "All-in-one task management løsning",
+            "icon": "list-todo",
+            "tabs": [
+              {
+                "tab": "Dokumentation",
+                "groups": [
+                  {
+                    "group": "Kom godt i gang",
+                    "pages": [
+                      "da/taskmanager/index"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "language": "en",
+        "dropdowns": [
+          {
+            "dropdown": "OnCloud API",
+            "icon": "waypoints",
+            "description": "OnCloud API Platform",
+            "tabs": [
+              {
+                "tab": "Dokumentation",
+                "groups": [
+                  {
+                    "group": "Kom godt i gang",
+                    "pages": [
                       "oncloud-api/index"
                     ]
                   }
@@ -153,9 +309,9 @@
             ]
           },
           {
-            "dropdown": "StreamNow",
-            "description": "Video streaming platform",
-            "icon": "tv-minimal-play",
+            "dropdown": "TaskManager",
+            "description": "All-in-one task management løsning",
+            "icon": "list-todo",
             "tabs": [
               {
                 "tab": "Dokumentation",
@@ -163,48 +319,9 @@
                   {
                     "group": "Kom godt i gang",
                     "pages": [
-                      "streamnow/index"
-                    ]
-                  },
-                  {
-                    "group": "Brugere",
-                    "pages": [
-                      "streamnow/users/index",
-                      "streamnow/users/create",
-                      "streamnow/users/reset-password",
-                      "streamnow/users/access-management",
-                      "streamnow/users/delete",
-                      "streamnow/users/passwords"
-                    ]
-                  },
-                  {
-                    "group": "Videoer",
-                    "pages": [
-                      "streamnow/videos/overview",
-                      "streamnow/videos/uploading",
-                      "streamnow/videos/edit",
-                      "streamnow/videos/access-and-sharing"
-                    ]
-                  },
-                  {
-                    "group": "Roller & rettigheder",
-                    "pages": [
-                      "streamnow/roles/index"
+                      "taskmanager/index"
                     ]
                   }
-                ]
-              }
-            ]
-          },
-          {
-            "dropdown": "TaskManager",
-            "description": "All-in-one task management løsning",
-            "icon": "list-todo",
-            "tabs": [
-              {
-                "tab": "Dokumentation",
-                "pages": [
-                  "introduktion"
                 ]
               }
             ]
