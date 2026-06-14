@@ -1,0 +1,112 @@
+---
+title: "Påmindelsestærskler"
+description: "Forstå hvordan Remindo bruger tre tærskler til at afgøre, hvornår betalingspåmindelser skal sendes."
+---
+
+Påmindelsestærskler bestemmer, hvornår Remindo sender betalingspåmindelser for en forfalden faktura.
+
+I Remindo kan du konfigurere op til tre tærskler:
+
+- 1. påmindelse
+- 2. påmindelse
+- 3. påmindelse
+
+Hver tærskel angiver, hvor mange dage der skal gå efter fakturaens forfaldsdato, før den pågældende påmindelse kan sendes.
+
+<Note>
+Remindo sender kun en påmindelse, hvis fakturaen fortsat er forfalden og ikke er registreret som betalt.
+</Note>
+
+<Tip>
+Du kan altid sende en påmindelse manuelt via Remindo — også selvom tærskelværdierne for automatiske påmindelser endnu ikke er nået.
+</Tip>
+
+## Hvad er en tærskel?
+
+En tærskel er det antal dage efter forfaldsdatoen, der skal gå, før Remindo må sende en betalingspåmindelse.
+
+Hvis en faktura for eksempel har forfaldsdato den 1. marts, og tærsklen for 1. påmindelse er sat til 7 dage, kan Remindo sende den første påmindelse, når fakturaen har været forfalden i 7 dage.
+
+## De tre påmindelser
+
+Remindo understøtter tre påmindelsestrin. Det giver dig mulighed for at starte med en venlig påmindelse og derefter følge op igen, hvis fakturaen stadig ikke bliver betalt.
+
+| Påmindelse | Beskrivelse |
+| --- | --- |
+| 1. påmindelse | Den første besked til kunden efter fakturaens forfaldsdato |
+| 2. påmindelse | En opfølgende besked, hvis fakturaen stadig ikke er betalt |
+| 3. påmindelse | Den sidste automatiske påmindelse i Remindo-flowet |
+
+## Eksempel
+
+Her er et eksempel på et påmindelsesflow med tre tærskler.
+
+| Påmindelse | Tærskel | Hvornår kan Remindo sende? |
+| --- | ---: | --- |
+| 1. påmindelse | 7 dage | Når fakturaen har været forfalden i 7 dage |
+| 2. påmindelse | 14 dage | Når fakturaen har været forfalden i 14 dage |
+| 3. påmindelse | 30 dage | Når fakturaen har været forfalden i 30 dage |
+
+Hvis fakturaen har forfaldsdato den 1. marts, betyder det:
+
+| Påmindelse | Kan sendes fra |
+| --- | --- |
+| 1. påmindelse | 8. marts |
+| 2. påmindelse | 15. marts |
+| 3. påmindelse | 31. marts |
+
+{/* TODO: Tilpas datoeksemplerne, hvis Remindo tæller forfaldsdagen med i tærsklen. */}
+
+## Hvornår sendes næste påmindelse?
+
+Remindo vurderer hver tærskel ud fra fakturaens forfaldsdato.
+
+Det betyder, at 2. og 3. påmindelse ikke nødvendigvis beregnes ud fra, hvornår den forrige påmindelse blev sendt. De beregnes ud fra, hvor længe fakturaen har været forfalden.
+
+Eksempel:
+
+| Forfaldsdato | 1. påmindelse | 2. påmindelse | 3. påmindelse |
+| --- | ---: | ---: | ---: |
+| 1. marts | Efter 7 dage | Efter 14 dage | Efter 30 dage |
+
+<Warning>
+Hvis en faktura bliver betalt, stopper Remindo med at sende flere påmindelser for den faktura.
+</Warning>
+
+## Betingelser for at sende en påmindelse
+
+Remindo sender kun en betalingspåmindelse, når betingelserne for den relevante tærskel er opfyldt.
+
+Typisk betyder det, at:
+
+- Fakturaen er forfalden
+- Fakturaen ikke er registreret som betalt
+- Tærsklen for den relevante påmindelse er nået
+- Den påmindelse ikke allerede er sendt
+- Fakturaen ikke er undtaget fra automatiske påmindelser
+
+{/* TODO: Tilpas listen, så den matcher Remindos faktiske regler. */}
+
+## Anbefalinger
+
+Du kan bruge tærsklerne til at tilpasse Remindos opfølgning til din betalingsproces.
+
+Et typisk setup kan være:
+
+| Påmindelse | Anbefalet tærskel | Formål |
+| --- | ---: | --- |
+| 1. påmindelse | 7 dage | Venlig opfølgning kort efter forfald |
+| 2. påmindelse | 14 dage | Tydeligere opfølgning, hvis fakturaen stadig ikke er betalt |
+| 3. påmindelse | 30 dage | Sidste automatiske påmindelse |
+
+<Tip>
+Start med tærskler, der matcher den måde, du normalt følger op på forfaldne fakturaer manuelt. Du kan justere tærsklerne senere, hvis du ønsker hurtigere eller langsommere opfølgning.
+</Tip>
+
+## Hvad sker der efter 3. påmindelse?
+
+Når Remindo har sendt 3. påmindelse, sendes der ikke flere automatiske påmindelser for fakturaen.
+
+Hvis fakturaen stadig ikke er betalt efter 3. påmindelse, bør den håndteres manuelt efter din normale interne proces.
+
+{/* TODO: Tilpas dette afsnit, hvis Remindo har særlige regler efter 3. påmindelse. */}
